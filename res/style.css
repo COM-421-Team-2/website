@@ -1,0 +1,12 @@
+* {
+  /* This is pretty much required when doing web dev.
+   * It tells rects to add the border and padding to
+   * their width instead of including them. (its a sanity thing)
+   */
+  box-sizing: border-box; 
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
