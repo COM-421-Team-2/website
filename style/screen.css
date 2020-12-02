@@ -6,7 +6,7 @@ body {
   font-family: 'Bitter', serif;
 }
 
-h1, h2, h3 {
+h1, h2 {
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 10px;
   padding-top: 30px;
@@ -15,6 +15,11 @@ h1, h2, h3 {
 h1 {
   font-size: 30px;
 }
+
+h2 {
+  font-size: 23px;
+}
+
 
 main {
   margin-top: 63px;
@@ -44,7 +49,7 @@ nav {
 }
 
 nav ul {
-  margin-left: 310px;
+  margin-left: 340px;
   padding-top: 10px;
   padding-right: 28px;
 }
@@ -59,13 +64,18 @@ nav a {
   font-size: 16px;
   color: #000000;
   text-align: center;
-  padding: 10px 16px;
+  padding: 5px 16px;
   text-decoration: none;
 }
 
 nav a:hover, a.current {
-  background-color: #c06014;
-  color: white;
+  /*background-color: #c06014;
+  color: white;*/
+  border-bottom: 5px solid #c06014;
+}
+
+span {
+  color: #c06014;
 }
 
 button {
@@ -116,12 +126,12 @@ footer {
   grid-template-rows: auto 70%;
 }
 
-#statistic > section {
+#statistic > div {
   grid-row: 2;
   text-align: center;
 }
 
-#statistic > section > h2{
+.number {
   color: #c06014;
   font-size: 50px;
   font-weight: bold;
@@ -134,9 +144,16 @@ footer {
   padding-right: 230px;
 }
 
-#illustration p, #illustration img {
+#illustration p {
   text-align: center;
   margin-top: 30px;
+}
+
+#illustration img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  /*width: 50%;*/
 }
 
 #illustration > p:not(.caption) {
