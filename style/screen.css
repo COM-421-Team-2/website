@@ -124,7 +124,7 @@ footer {
   align-items: center;
   justify-content: center;
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 100px;
   background: linear-gradient(70deg, #eddbcd 40%, rgba(0, 0, 0, 0) 30%), url('../images/tickets.jpg');
   /* Image taken from https://www.motherjones.com/crime-justice/2018/02/how-does-chicago-make-200-million-a-year-on-parking-tickets-by-bankrupting-thousands-of-drivers/ */
   background-position: 180% 10%;
