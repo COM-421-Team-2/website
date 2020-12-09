@@ -33,6 +33,16 @@ main {
 }
 
 
+#guide ol, #guide ul {
+  margin: 10px 0px;
+}
+
+#guide li {
+  margin: 1rem 0px;
+  margin-left: 20px;
+}
+
+
 nav p {
   font-size: 35px;
   display: flex;
@@ -225,4 +235,40 @@ a {
 
 #tagline {
   font-style: italic;
+}
+
+
+
+thead a {
+  color: #ffffff
+}
+
+thead,
+tfoot {
+    background-color: #c06014;
+    color: #fff;
+}
+
+tbody {
+    /* background-color: #e4f0f5; */
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px 0px;
+}
+
+td,
+th {
+    border: 1px solid #c06014;
+    padding: 5px 10px;
+}
+
+td {
+    text-align: center;
 }
