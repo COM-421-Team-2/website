@@ -222,3 +222,7 @@ iframe {
 a {
   color: #c06014;
 }
+
+#tagline {
+  font-style: italic;
+}
