@@ -82,7 +82,7 @@ nav {
 nav ul {
 }
 
-nav li, #jump_nav li {
+nav li {
   display: inline;
 }
 
