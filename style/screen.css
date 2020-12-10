@@ -339,3 +339,10 @@ a.button {
 a.button:hover {
 	transform: scale(1.1);
 }
+
+#statistic a.button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
