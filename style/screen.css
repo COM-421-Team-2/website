@@ -26,7 +26,7 @@ h3 {
   font-family: 'Open Sans', sans-serif;
   padding-bottom: 10px;
   font-size: 19px;
-  color: #c06014;
+  color: #b95c13;
 }
 
 main {
@@ -97,12 +97,12 @@ nav a {
 }
 
 nav a:hover, a.current {
-  border-bottom: 5px solid #c06014;
+  border-bottom: 5px solid #b95c13;
 }
 
 
 nav span {
-  color: #c06014;
+color: #b95c13;
 }
 
 @media only screen and (max-width: 960px) {
@@ -118,8 +118,8 @@ nav span {
 button {
   background-color: Transparent;
   background-repeat:no-repeat;
-  border: 2px solid #c06014;
-  color: #c06014;
+  border: 2px solid #b95c13;
+  color: #b95c13;
   cursor:pointer;
   font-size: 16px;
   padding: 10px 16px;
@@ -182,7 +182,7 @@ footer {
 }
 
 .number {
-  color: #c06014;
+  color: #b95c13;
   font-size: 50px;
   font-weight: bold;
 }
@@ -208,7 +208,7 @@ footer {
 }
 
 #illustration > p:not(.caption) {
-  color: #c06014;
+  color: #b95c13;
   font-weight: bold;
 }
 
@@ -236,7 +236,7 @@ iframe {
 }
 
 a {
-  color: #c06014;
+  color: #b95c13;
 }
 
 #tagline {
@@ -249,7 +249,7 @@ thead a {
 
 thead,
 tfoot {
-    background-color: #c06014;
+    background-color: #b95c13;
     color: #fff;
 }
 
@@ -265,7 +265,7 @@ table {
 
 td,
 th {
-    border: 1px solid #c06014;
+    border: 1px solid #b95c13;
     padding: 5px 10px;
 }
 
