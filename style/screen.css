@@ -317,3 +317,25 @@ th {
   float: right;
   margin-top: 40px;
 }
+
+
+a.button {
+	box-sizing: border-box;
+  background-color: #b95c13;
+	color: #ffffff;
+  background-repeat:no-repeat;
+  border: 2px solid #b95c13;
+	display: inline-block;
+  cursor:pointer;
+  font-size: 16px;
+  padding: 10px 16px;
+  margin-top: 50px;
+  margin-right: 20px;
+	text-decoration: none;
+	transition: transform 200ms ease-in-out;
+}
+
+
+a.button:hover {
+	transform: scale(1.1);
+}
