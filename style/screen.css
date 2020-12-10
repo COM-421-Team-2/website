@@ -1,6 +1,8 @@
-body {
-  /*background-color: #f1f1f1;*/
+html {
   background-color: white;
+}
+
+body {
   color: #000000;
   margin: 0px;
   font-family: 'Bitter', serif;
